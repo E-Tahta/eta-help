@@ -1,0 +1,12 @@
+[Desktop Entry]
+Version=1.0
+Name=Eta-Help
+Name[tr]=Eta-Yardım
+Type=Application
+Comment=Send your help message and optionally your screenshot.
+Comment[tr]=Yardım mesajınızı ve isteğe bağlı olarak ekran resminizi gönderir.
+Terminal=false
+Exec=/usr/bin/eta-help
+Icon=/usr/share/eta/eta-help/icon/help.svg
+Categories=Qt;Utility;
+GenericName=

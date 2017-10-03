@@ -1,0 +1,6 @@
+#!/bin/sh
+set -e
+
+if [ -f /etc/eta/eta-help/config.ini ]; then
+  rm -rf /etc/eta/eta-help/config.ini
+fi

@@ -1,0 +1,9 @@
+<RCC>
+    <qresource prefix="/">
+        <file>ui/main.qml</file>
+        <file>ui/Help.qml</file>
+        <file>ui/Mail.qml</file>
+        <file>js/functions.js</file>
+        <file>ui/Status.qml</file>
+    </qresource>
+</RCC>
