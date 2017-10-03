@@ -1,3 +1,9 @@
+eta-help (0.2.1) unstable; urgency=medium
+
+  * Change binary target from etahelp to eta-help
+
+ -- Hikmet Baş <hikmet.bas@pardus.org.tr>  Tue, 03 Oct 2017 11:56:28 +0000
+
 eta-help (0.2.0) unstable; urgency=medium
 
   * Initial release.
