@@ -23,7 +23,7 @@ icon.files = help.svg
 icon.commands = mkdir -p /usr/share/eta/eta-help/icon
 icon.path = /usr/share/eta/eta-help/icon/
 
-etaman.files = Kullanım\ Kılavuzu.pdf
+etaman.files = user_guide.pdf
 etaman.commands = mkdir -p /usr/share/eta/eta-help
 etaman.path = /usr/share/eta/eta-help/
 
