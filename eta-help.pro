@@ -14,7 +14,7 @@ HEADERS += \
     src/requestmanager.h \
     src/filemanager.h
 
-TARGET = etahelp
+TARGET = eta-help
 
 
 target.path = /usr/bin/
