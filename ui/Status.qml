@@ -73,8 +73,7 @@ Item {
         Row{
             id: r3
             spacing: main.spacing
-            visible: main.imageSource == "Images/failed.svg" &&
-                     smtp.isConfigFound() ?
+            visible: main.imageSource == "Images/failed.svg" ?
                          true : false
 
             ToolButton {

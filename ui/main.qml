@@ -71,8 +71,7 @@ ApplicationWindow {
             main.busy = false
             main.imageSource = "Images/failed.svg"
             main.message = "Geri bildiriminiz iletilememiştir."
-            main.subMessage = "Bağlantınızı kontrol edin\nveya daha sonra
-                                                            tekrar deneyin."
+            main.subMessage = "Bağlantınızı kontrol edin\nveya daha sonra tekrar deneyin."
         }
     }
 
