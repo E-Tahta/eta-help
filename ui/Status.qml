@@ -57,6 +57,7 @@ Item {
 
         Text {
             id: txtStatus
+            color: main.textColor
             text: main.message
 
             font.pointSize: 12
@@ -64,6 +65,7 @@ Item {
         Text {
             id: txtSub
             text: main.subMessage
+            color: main.textColor
             font.pointSize: 8
 
         }
@@ -95,8 +97,10 @@ Item {
             Text {
                 id: txtRetry
                 text: "Yeniden dene"
+                color: main.textColor
                 verticalAlignment: Text.AlignVCenter
                 height: btnRetry.height
+
             }
 
         }

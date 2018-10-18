@@ -46,6 +46,7 @@ Item{
             Text {
                 id: txtMail
                 text: main.mail
+                color: main.textColor
                 verticalAlignment: Text.AlignVCenter
                 height: btnBack.height
             }
@@ -78,6 +79,7 @@ Item{
                 height:  btnScreenShot.height
                 text: btnScreenShot.checked ? "Ekran görüntüsünü eklendi" :
                                               "Ekran görüntüsünü ekle"
+                color: main.textColor
                 verticalAlignment: Text.AlignVCenter
             }
         }
@@ -85,6 +87,7 @@ Item{
         Text {
             id: txtSubject
             text: "Konu"
+            color: main.textColor
         }
 
         TextField {
@@ -101,6 +104,7 @@ Item{
         Text {
             id: txtMessage
             text: "Açıklama"
+            color: main.textColor
         }
 
         TextArea {
@@ -130,7 +134,7 @@ Item{
                         txtError.opacity = 0
                         stackView.push(status)
                         main.subject = tfSubject.text.toString()
-                        main.body = tiMessage.text.toString()                        
+                        main.body = tiMessage.text.toString()
                         if(main.screenshot) {
                             smtp.sendMail(main.mail, main.subject, main.body,
                                           main.ssPath)
@@ -138,7 +142,7 @@ Item{
                             smtp.sendMail(main.mail, main.subject, main.body)
                         }
                     } else {
-                    txtError.opacity = 1
+                        txtError.opacity = 1
                     }
                 }
             }
@@ -146,6 +150,7 @@ Item{
             Text {
                 id: txtSend
                 text: "Gönder"
+                color: main.textColor
                 verticalAlignment: Text.AlignVCenter
                 height: btnSend.height
             }
@@ -157,7 +162,7 @@ Item{
             verticalAlignment: Text.AlignVCenter
             height: btnSend.height
             opacity: 0
-            color: "red"
+            color: "#FF5722"
         }
     }
 }

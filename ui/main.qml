@@ -29,6 +29,7 @@ ApplicationWindow {
     width: 300
     height: 450
     title: "Eta Yardım"
+    color: "#383838"
     x: 0
     y: Screen.height - main.height
     flags: Qt.FramelessWindowHint
@@ -44,6 +45,7 @@ ApplicationWindow {
     property string message
     property string subMessage
     property string ssPath
+    property string textColor: "#eeeeee"
 
     ToolButton {
         id: btnClose
@@ -69,7 +71,8 @@ ApplicationWindow {
             main.busy = false
             main.imageSource = "Images/failed.svg"
             main.message = "Geri bildiriminiz iletilememiştir."
-            main.subMessage = "Bağlantınızı kontrol edin\nveya daha sonra tekrar deneyin."
+            main.subMessage = "Bağlantınızı kontrol edin\nveya daha sonra
+                                                            tekrar deneyin."
         }
     }
 

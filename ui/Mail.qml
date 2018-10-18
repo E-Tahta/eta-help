@@ -33,6 +33,8 @@ Item {
         Text {
             id: txtMail
             text: qsTr("Kendi E-posta adresinizi giriniz")
+            color: main.textColor
+
         }
 
         Row{
@@ -73,7 +75,7 @@ Item {
         Text {
             id: txtError
             text: qsTr("Lütfen geçerli bir e-posta adresi giriniz")
-            color: "red"
+            color: "#FF5722"
             opacity: 0
         }
 
