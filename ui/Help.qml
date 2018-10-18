@@ -65,8 +65,7 @@ Item{
                 checkable: true
                 onCheckedChanged: {
                     if (btnScreenShot.checked) {
-                        main.ssPath = smtp.getScreenShot();
-                        main.screenshot = true
+                        ssAnimation.start()
                     } else {
                         main.ssPath = "";
                         main.screenshot = false
@@ -164,5 +163,30 @@ Item{
             opacity: 0
             color: "#FF5722"
         }
+    }
+
+    NumberAnimation {
+        id: ssAnimation
+        target: main
+        property: "opacity"
+        from: 1
+        to: 0
+        duration: 0
+
+        onStopped: {
+            main.ssPath = smtp.getScreenShot();
+            main.screenshot = true
+            ssFadeIn.start()
+        }
+
+    }
+
+    NumberAnimation {
+        id: ssFadeIn
+        target: main
+        property: "opacity"
+        from: 0
+        to: 1
+        duration: 300
     }
 }
