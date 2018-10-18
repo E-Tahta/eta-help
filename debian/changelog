@@ -1,3 +1,9 @@
+eta-help (0.2.8) unstable; urgency=medium
+
+  * Fix retry button
+
+ -- Hikmet Baş <hikmet.bas@pardus.org.tr>  Thu, 18 Oct 2018 08:21:45 +0000
+
 eta-help (0.2.7) unstable; urgency=medium
 
   * Add screenshot animation
