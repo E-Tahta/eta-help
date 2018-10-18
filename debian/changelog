@@ -1,3 +1,9 @@
+eta-help (0.2.7) unstable; urgency=medium
+
+  * Add screenshot animation
+
+ -- Hikmet Baş <hikmet.bas@pardus.org.tr>  Thu, 18 Oct 2018 07:55:47 +0000
+
 eta-help (0.2.6) unstable; urgency=medium
 
   * Pardus CI integration
