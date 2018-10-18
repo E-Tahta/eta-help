@@ -1,3 +1,9 @@
+eta-help (0.2.4) unstable; urgency=medium
+
+  * Change design
+
+ -- Hikmet Baş <hikmet.bas@pardus.org.tr>  Thu, 18 Oct 2018 07:19:18 +0000
+
 eta-help (0.2.3) unstable; urgency=medium
 
   * Deleted make file
